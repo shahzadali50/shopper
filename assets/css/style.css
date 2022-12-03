@@ -1,0 +1,671 @@
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(../../assets/font-family/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-BlackItalic;
+  src: url(../../assets/font-family/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../../assets/font-family/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-BoldItalic;
+  src: url(../../assets/font-family/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(../../assets/font-family/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBoldItalic;
+  src: url(../../assets/font-family/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url(../../assets/font-family/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLightItalic;
+  src: url(../../assets/font-family/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url(../../assets/font-family/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../../assets/font-family/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../../assets/font-family/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-MediumItalic;
+  src: url(../../assets/font-family/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../../assets/font-family/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-LightItalic;
+  src: url(../../assets/font-familyy/Montserrat-LightItalic.ttf);
+}
+
+* {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.services {
+  margin-top: 170px;
+}
+
+.common-btn {
+  padding: 9px 80px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  border-radius: 20px;
+  background-color: #3994ff;
+  color: #ffffff;
+}
+
+.common-btn:hover {
+  background-color: #0076fd;
+  color: #ffffff;
+}
+
+h5.common-h {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #6978fc;
+}
+
+p.shopper-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000122;
+}
+
+section {
+  padding: 20px 0px;
+}
+
+/* header */
+header {
+  background-color: #ffffff;
+}
+
+header nav.navbar {
+  border-bottom: 0.5px solid #6978fc;
+  padding: 15px 0px;
+}
+
+header a.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #6978fc;
+}
+
+header button.btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  border-radius: 20px;
+  padding: 8px 26px;
+}
+
+header button.btn:hover {
+  background-color: #0076fd;
+  color: #f1f1f1;
+}
+
+header button.left-btn {
+  border: 1px solid #6978fc;
+  color: #6978fc;
+}
+
+header button.right-btn {
+  background-color: #3994ff;
+  color: #ffffff;
+}
+
+header a h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #6978fc;
+}
+
+/* banner */
+.banner h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #6978fc;
+  margin-top: 93px;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140.4%;
+  color: #000122;
+}
+
+.banner img {
+  /* position: absolute; */
+  max-width: 130%;
+}
+
+/* test */
+
+section.test {
+  padding-top: 140px;
+}
+
+/* services */
+.services .card {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.services .card img {
+  width: 222px;
+  height: 222px;
+}
+
+.services h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #6978fc;
+}
+
+.services p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000122;
+}
+
+.services img.link-img-1 {
+  width: 188px;
+  height: 71px;
+  z-index: 9;
+  position: absolute;
+  top: 99px;
+  left: 280px;
+}
+
+.services img.link-img-2 {
+  width: 206px;
+  height: 92px;
+  z-index: 9;
+  position: absolute;
+  top: 99px;
+  left: 280px;
+}
+
+.services img.link-img-2 {
+  position: absolute;
+  top: 24px;
+  left: 245px;
+}
+
+/* test */
+.test .image {
+  background-image: url(../images/test/test-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 400px;
+}
+
+.test h5 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #6978fc;
+}
+
+.test P {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000122;
+}
+
+.test .common-btn {
+  position: relative;
+  top: 188px;
+}
+
+.test .card {
+  border: none;
+  box-shadow: rgb(211, 208, 208) 0px 5px 17px -3px;
+}
+
+/* insights */
+.insights img.insigts-img-1 {
+  position: absolute;
+  max-width: 70%;
+  top: 38%;
+  right: 177px;
+}
+
+.insights img.insigts-img-2 {
+  position: absolute;
+  top: 50px;
+  right: 47px;
+  max-width: 70%;
+}
+
+/* tree */
+.tree img.tree-img {
+  position: absolute;
+  top: 73px;
+  right: 33px;
+  width: 100%;
+}
+
+/* testemonials */
+.testemonials .card {
+  border: 1px solid #6978fc;
+  border-radius: 18px;
+  margin-bottom: 30px;
+}
+
+.testemonials h5 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #6978fc;
+  font-family: Montserrat-SemiBold;
+}
+
+.testemonials .card-body h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #6978fc;
+  margin-top: -13px;
+}
+
+.testemonials .card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000122;
+}
+
+.testemonials img.profile-img {
+  width: 170px;
+  height: 170px;
+}
+
+/* form */
+
+.form {
+  background-color: #6978fc;
+}
+
+.form input {
+  color: white !important;
+  margin-bottom: 20px;
+  background: none;
+}
+
+.form input:focus {
+  background: none;
+}
+
+.form h5 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.form input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  font-family: Montserrat-Regular;
+}
+
+.form button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 10px;
+  padding: 8px 52px;
+  color: #6978fc;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #000122;
+}
+
+footer h5 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Montserrat-SemiBold;
+}
+
+footer p {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+}
+
+footer p.address {
+  margin-bottom: 42px;
+}
+
+footer p.copy-right {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+footer hr {
+  background-color: #f1f1f1;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+footer ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f1f1f1;
+  letter-spacing: 0.012em;
+
+  text-decoration: none !important;
+}
+
+footer img {
+  width: 20px;
+}
+footer ul.social-icon li{
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  /* banner */
+  .banner h5 {
+    font-size: 36px;
+    line-height: 35px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .banner img {
+    max-width: 110%;
+  }
+
+  /* services */
+  .services img.link-img-1 {
+    width: 132px;
+    height: 71px;
+
+    top: 77px;
+    left: 248px;
+  }
+
+  .services img.link-img-2 {
+    width: 141px;
+    top: 31px;
+    left: 220px;
+  }
+
+  .services p {
+    font-size: 13px;
+  }
+
+  .insights img.insigts-img-2 {
+    top: 71px;
+    right: 47px;
+  }
+
+  /* testemonials */
+  .testemonials .card p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h5.common-h {
+    font-size: 33px;
+  }
+
+  p.shopper-p {
+    font-size: 13px;
+  }
+
+  /* banner */
+  .banner h5 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  /* test */
+  section.test {
+    padding-top: 20px;
+  }
+
+  /* services */
+  section.services {
+    margin-top: 30px;
+  }
+
+  /* insights */
+  .insights img.insigts-img-1 {
+    top: 50%;
+    right: 128px;
+  }
+
+  /* tree */
+  .tree img.tree-img {
+    max-width: 90%;
+  }
+
+  /* testemonials */
+  .testemonials .card p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner h5 {
+    margin-top: 20px;
+  }
+
+  .banner img {
+    max-width: 100%;
+  }
+
+  /* test */
+  section.test {
+    padding-top: 32px;
+  }
+
+  /* insights */
+  .insights img.insigts-img-2 {
+    top: 29px;
+    right: 47px;
+  }
+
+  .insights img.insigts-img-1 {
+    top: 37%;
+  }
+
+  /* test */
+  .test h5 {
+    font-size: 30px;
+  }
+
+  .test P {
+    font-size: 15px;
+  }
+
+  section.services {
+    margin-top: 100px;
+  }
+
+  /* footer  */
+  footer h5 {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer p.address {
+    margin-bottom: 12px;
+  }
+
+  footer ul li a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* header */
+  header nav.navbar {
+    padding: 15px 32px;
+  }
+
+  h5.common-h {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  p.shopper-p {
+    font-size: 13px;
+  }
+
+  /* banner */
+  .banner h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  /* insights */
+  .insights img.insigts-img-1 {
+    top: 40%;
+    right: 28%;
+}
+  /* teSt */
+
+  .test P {
+    font-size: 14px;
+  }
+
+  /* tree */
+  .tree img.tree-img {
+    max-width: 90%;
+  }
+
+  /* footer  */
+  footer h5 {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  /* form */
+  .form h5 {
+    font-size: 35px;
+  }
+
+  .form button {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  /* header */
+  header nav.navbar {
+    padding: 15px 15px;
+  }
+
+  /* banner */
+
+  .banner p {
+    font-size: 11px;
+  }
+
+  /* tree */
+  .tree img.tree-img {
+    max-width: 90%;
+    right: 20px;
+  }
+
+  /* testemonials */
+  .testemonials .card p {
+    font-size: 11px;
+  }
+}
